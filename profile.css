@@ -1,0 +1,263 @@
+.header
+{
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px 12px;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+}
+.header a{
+    float: left;
+    color:lightblue;
+    text-align: center;
+    padding: 11px;
+    text-decoration: lightblue;
+    font-size: 22px;
+    line-height: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.right-header
+{
+    float: left;
+}
+#link ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333 ;
+    
+}
+#link li
+{
+    display: inline;
+    
+}
+#link a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#link li a:hover{
+    background-color:gray;
+}
+/*More button*/
+.dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 11px 11px;
+    background-color: inherit;
+    font-family: inherit;
+
+    
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #312e2e;
+    min-width: 160px;
+    box-shadow: 1px 8px 16px 1px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: rgb(80, 75, 75);
+  }
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+.active
+{
+    background-color: rgb(85, 83, 83);
+}
+
+
+
+.section{
+    height: 510px;
+    width: 70%;
+    margin-top: 100px;
+    background-color: #AFDFA5;
+    margin-left: 200px;
+    border-radius: 9px;
+    box-shadow: 8px 8px 35px grey;
+    border-top: 5px solid;
+    border-image: linear-gradient(180deg,rgb(221, 162, 139),rgb(100, 125, 238));
+    border-image-slice: 1;
+}
+.section:hover{
+    background-color: teal;
+    transition: 1s;
+}
+.nameLogo img{
+    width: 14%;
+    height: 13%;
+    float: left;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.nameLogo p{
+    position: absolute;
+    margin-left: 112px;
+    margin-top: 43px;
+    font-size: 1.50rem;
+    font-weight: 400;
+}
+
+hr{
+    margin-top: 108px;
+    width: 93%;
+    border: 1px solid rgb(118, 155, 127);
+}
+.info-btn{
+    padding: 30px;
+    background-color: rgb(118, 155, 127);
+    width: 80%;
+    margin-left: 93px;
+    border-radius: 7px;
+}
+.poll-btn{
+    margin: 10px;
+    margin-left: 46px;
+    margin-top: 3px;
+    color: white;
+    background-color: #229954;
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid rgb(161, 170, 170);
+    border-radius: 7px;
+    cursor: pointer;
+}
+.poll-btn:hover{
+    background-color: #2874A6;
+    transition: 0.5s;
+}
+.bio-img{
+    width: 200px;
+    height: 200px;
+    margin-left: 11px;
+    border-radius: 50%;
+}
+.result-section{
+    float: left;
+}
+.poll-section{
+    float: left;
+}
+.bio-img{
+    padding: 20px;
+}
+.container{
+    background-color: teal;
+    height: 700px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: 3px solid grey;
+}
+.update-container{
+    background-color: teal;
+}
+
+
+/*Main footer*/
+
+.main-footer{
+    background-color: #454545;
+    margin-left: 40px;
+}
+.block
+{
+    float: left;
+    width: 32%;
+    border:#454545;
+    box-sizing: border-box;
+    background-color:#454545;
+    text-align: center; 
+    margin-top: 110px;
+    margin-right: 5px;  
+    padding: 30px;
+}
+.block h3
+{
+    background-color: #454545;
+    color: darkgray;
+}
+.block ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#454545 ;
+}
+.block a
+{
+    color: whitesmoke;
+    text-align: center;
+    text-decoration:none ;
+    padding: 14px 20px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.block a:hover{
+    color:gray;
+}
+/*Second Footer*/
+.last-footer
+{
+    background-color:#454545;
+    width: 100%;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.last-footer a
+{
+    color: white;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.last-footer a:hover
+{
+    color: gray;
+}

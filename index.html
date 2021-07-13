@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polling System</title>
+    <link rel="stylesheet" href="pollStyle.css">
+</head>
+<body>
+<!--Navigation-->
+<div class="header">
+  <a href="about.html">Online Polling</a>
+  <div class="right-header">
+<nav id="link">
+      <ul>
+          <li><a href="vote.php">Home</a></li>
+          <li><a class="active" href="index.html">Create Poll</a></li>
+          <li><a href="PageHeader.html">Profile</a></li> 
+          <div class="dropdown">
+           <button class="dropbtn">More</button>
+           <div class="dropdown-content">
+             <a href="about.html">About</a>
+             <a href="help.html">Help</a>
+             <a href="logout.php">Log Out</a>
+           </div>
+         </div>
+         
+      <ul>
+      </nav>
+    </div>
+      </div>
+  
+           
+ <!--Dark Mod-->
+ <input type="button" value="Dark Mode" id="darkMode" onclick="return change(this);">
+
+  <!--Images Slides-->
+
+  <div class="slides">
+    <div class="image One">
+        <img src="Pros-and-Cons-1200x675.jpg" style="width: 100%;">
+        <div class="text">Create<br> A <br>Poll</div>
+        </div>
+
+        <div class="image Two">
+            <img src="black_lives.jpg" style="width: 100%;">
+            <div class="text">Join<br> The<br> Movement</div>
+            </div>
+
+        <div class="image Three">
+            <img src="last.jpg" style="width: 100%;">
+            <div class="text">Make<br> A<br> Difference</div>
+            </div>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+        </div>  
+ <!--Create poll-->
+ <form id="createPoll">
+  <div class="container">
+    <h2>Create Your Poll</h2>
+    <br>
+    <input type="text" id="title" placeholder="Title" required>
+    <br>
+    <input type="text" id="answerOne" placeholder="Answer One (Required)" required>
+    <br>
+    <input type="text" id="answerTwo" placeholder="Answer Two (Required)" required>
+    <br>
+    <input type="text" id="answerThree" placeholder="Answer Three">
+    <br>
+    <input type="text" id="answerFour" placeholder="Answer Four">
+    <br>
+    <input type="text" id="answerFive" placeholder="Answer Five">
+    <br>
+    <button type="submit" id="submit">Create Poll</button>
+  </div>
+</form>
+<!--First footer-->
+   <footer class="main-footer">
+    <div class="block">
+      <h3>Service</h3>
+      <ul>
+        <li><a href="index.html">Poll Maker</a></li> 
+        <li><a href="vote.php">Join The Vote</a></li>
+      </ul> 
+      </div>
+      <div class="block">
+      <h3>Help & Support</h3>
+      <ul>
+      <li><a href="help.html">Help</a></li> 
+      <li><a href="report.html">Report a Poll</a></li>
+      </ul> 
+      </div>
+      <div class="block">
+      <h3>Company</h3>
+      <ul>
+      <li><a href="about.html">About Us</a></li> 
+      <li><a href="Contact.html">Contact Us</a></li> 
+      </ul>
+      </div>
+  </footer>
+<!--Second footer-->
+  <footer class="last-footer">
+   <p><a href="terms.html"><hr>Terms & Condition</a> <span></span> &copy; 2020 The C Team</p>
+     
+ </footer>
+
+ <script src="sweetalert.min.js"></script>
+ <script src="darkMode.js"></script>
+ <script src="slideImage.js"></script>
+ <script src="passingdata.js"></script>
+
+
+
+</body>
+</html>

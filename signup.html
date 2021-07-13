@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="about.html">Online Polling</a>
+        <div class="right-header">
+    <nav id="link">
+       <!---- <ul>
+            <li><a href="#">Home</a></li>
+            <li><a class="active" href="#">Create Poll</a></li>
+            <li><a href="#">Profile</a></li> 
+        <div class="dropdown">
+          <button class="dropbtn">More</button>
+        <div class="dropdown-content">
+            <a href="#">About</a>
+            <a href="#">Help</a>
+            <a href="#">Profile</a>
+            <a href="#">Log Out</a>
+          </div>
+        </div> 
+        </ul>-->
+        </nav>
+    </div>
+</div>
+    
+    <h1>Sign Up</h1>
+
+    <h3 id="confirmation" style="color: rgb(52, 209, 123);"></h3>
+
+    <form name="myForm" onsubmit="handleForm()">
+        <table>
+            
+            <p> Alraedy Have An Account?? <a href="login.php">Login</a></p>
+           
+            <tr>
+                <td>Name: </td>
+                <td><input type="text" name="name" required></td>
+            </tr>
+            
+            <tr>    
+                <td>Email:</td>
+                <td><input type="email" name="email" required></td>
+                
+            </tr>
+
+            <tr>
+                <td>Password: </td>
+                <td><input type="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td>Repeat Password: </td>
+                <td><input type="password" name="repeatPassword" required></td>
+            </tr>
+            <tr>
+                <td><span id="passwordAlert" style="color: crimson;"></span></td>
+            </tr>
+
+            <tr>
+                <td>Age: </td>                
+                <td><input type="number" name="age" required></td>
+            </tr>
+           
+            <tr>
+                <td>Country:</td>
+                <td><input type="text" name="country" required></td>
+             </tr>
+             <tr>
+                <td>City: </td>
+                <td><input type="text" name="city" required></td>
+            </tr>
+            <tr>   
+                <td align="right" colspan="2" style="padding-top: 20px;">
+                    <input type="submit" name="submitButton" value="Sign Up">
+                    <input type="reset" style="margin-left: 10px;" name="resetButton" value="Reset">
+                    
+                </td>
+                
+            </tr>
+        </table>
+       
+    </form>
+    <!--Second footer-->
+    <footer class="last-footer">
+        <p><a href="terms.html"><hr>Terms & Condition</a> <span></span> &copy; 2020 The C Team</p>
+     
+    
+</body>
+
+<script src="signup.js"></script>
+
+</html>
